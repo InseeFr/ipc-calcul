@@ -20,7 +20,6 @@ import fr.insee.prismeipc.open.impl.IndiceCoicopMensuelServiceTest;
 import fr.insee.prismeipc.open.model.IndiceCoicopMensuel;
 import fr.insee.prismeipc.open.model.enumeration.EtatCalendrier;
 import fr.insee.prismeipc.open.model.enumeration.Population;
-import fr.insee.prismeipc.open.service.impl.CalculIndiceCoicopService;
 
 class CalculIndiceCoicopServiceTest {
 
@@ -38,7 +37,7 @@ class CalculIndiceCoicopServiceTest {
    );
 
    @Test
-   void calcul_coicop_cas_nominal() {
+   public void calcul_coicop_cas_nominal() {
       // Given
       // Les différentes données de tests sont dans les implémentations des services appelées
       indiceCoicopMensuelService.clear();

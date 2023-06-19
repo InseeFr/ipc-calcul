@@ -13,7 +13,6 @@ import fr.insee.prismeipc.open.impl.DonneesTest;
 import fr.insee.prismeipc.open.impl.IndicePosteMensuelServiceTest;
 import fr.insee.prismeipc.open.model.IndicePosteMensuel;
 import fr.insee.prismeipc.open.model.enumeration.EtatCalendrier;
-import fr.insee.prismeipc.open.service.impl.CalculIndicePosteService;
 
 class CalculIndicePosteServiceTest {
 
@@ -25,7 +24,7 @@ class CalculIndicePosteServiceTest {
       , new CacheCalculIndicePosteServiceTest());
 
    @Test
-   void calcul_indice_poste_cas_nominal() {
+   public void calcul_indice_poste_cas_nominal() {
       // Given
       // Les différentes données de tests sont dans les implémentations des services appelées
       indicePosteMensuelService.clear();
