@@ -9,8 +9,16 @@ Ce code est utilisé à partir de septembre 2023.
 Il s'agit d'un module java 11 avec maven.
 
 Pour récupérer le module
-`git clone https://github.com/InseeFr/ipc-calcul.git`
+```
+git clone https://github.com/InseeFr/ipc-calcul.git
+```
+
 Pour jouer les tests unitaires :
-`mvn test`
+```
+mvn test
+```
+
 Pour construire le module :
-`mvn clean package`
+```
+mvn clean package
+```
