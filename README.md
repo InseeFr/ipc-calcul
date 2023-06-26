@@ -5,7 +5,7 @@ Dans ce module on trouve les méthodes d'agrégation de l'IPC au niveau POSTE et
 
 Ce code est utilisé à partir de septembre 2023.
 
-# Quickstart
+# Quick start
 Il s'agit d'un module java 11 avec maven.
 
 Pour récupérer le module
